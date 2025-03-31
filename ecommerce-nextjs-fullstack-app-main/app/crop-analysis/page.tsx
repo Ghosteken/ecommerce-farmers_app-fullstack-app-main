@@ -3,7 +3,10 @@
 import { useState, useEffect } from "react";
 import { Bar } from "react-chartjs-2";
 import Chart from "chart.js/auto";
+import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from "chart.js";
 
+
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 const CropAnalysis = () => {
   const [cropData, setCropData] = useState([
     { name: "Tomatoes", sold: 120, revenue: 2400 },
