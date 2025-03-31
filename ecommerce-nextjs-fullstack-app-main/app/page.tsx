@@ -16,7 +16,7 @@ export default async function Home() {
       <section className="rounded-lg bg-gray-100 py-12 px-8 md:flex md:items-center md:justify-between">
         <div className="max-w-lg">
           <h1 className="text-4xl font-bold text-gray-900">
-            Welcome to Farmers' Market
+            Welcome to Farmers&apos; Market
           </h1>
           <p className="mt-4 text-gray-700">
             Discover the latest products at unbeatable prices.

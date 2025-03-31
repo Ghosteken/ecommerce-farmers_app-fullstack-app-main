@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState,useRef } from "react";
 
 const chatbotResponses: Record<string, string> = {
   "best crops to sell": "The best crops to sell depend on demand and season. Currently, tomatoes, onions, are top-selling.",
@@ -50,7 +50,7 @@ export default function Chatbot() {
         {isOpen && (
           <div className="absolute bottom-12 right-0 w-80 bg-white border rounded-lg shadow-lg p-4">
             <div className="flex justify-between items-center mb-2">
-              <span className="font-bold text-lg">Farmer's Assistant</span>
+              <span className="font-bold text-lg">Farmer&apos;s Assistant</span>
               {/* Close Button */}
               <button onClick={() => setIsOpen(false)} className="text-gray-500 hover:text-black">
                 ✕

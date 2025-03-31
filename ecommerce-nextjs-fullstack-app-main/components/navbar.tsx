@@ -32,7 +32,7 @@ export const Navbar = () => {
     <nav className="sticky top-0 z-50 bg-white shadow-md">
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
         <Link href="/" className="text-lg font-semibold hover:text-blue-600">
-        Farmers' Market
+        Farmers&apos; Market
         </Link>
         
         {/* Desktop Navigation */}

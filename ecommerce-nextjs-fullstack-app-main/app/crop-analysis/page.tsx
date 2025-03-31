@@ -1,14 +1,13 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState} from "react"; 
 import { Bar } from "react-chartjs-2";
-import Chart from "chart.js/auto";
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from "chart.js";
 
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 const CropAnalysis = () => {
-  const [cropData, setCropData] = useState([
+  const [cropData] = useState([
     { name: "Tomatoes", sold: 120, revenue: 2400 },
     { name: "Onions", sold: 95, revenue: 1800 },
     { name: "Maize", sold: 80, revenue: 1600 },
