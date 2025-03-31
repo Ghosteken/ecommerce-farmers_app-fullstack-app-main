@@ -4,7 +4,7 @@ import { Navbar } from "@/components/navbar";
 import Chatbot from "@/components/Chatbot"; // Import the chatbot
 
 export const metadata: Metadata = {
-  title: "MyStore",
+  title: "Farmers' Market",
   description: "Buy cool products",
 };
 
@@ -20,7 +20,7 @@ export default function RootLayout({
         <main className="flex-grow container mx-auto px-4 py-8">
           {children}
         </main>
-        <Chatbot /> {/* Add chatbot here */}
+        <Chatbot />
       </body>
     </html>
   );
